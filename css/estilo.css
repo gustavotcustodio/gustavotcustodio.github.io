@@ -1,0 +1,68 @@
+body {
+    font-family: helvetica;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+article {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    float: right;
+    width: 70%;
+    background-color: #292929;
+}
+
+sidebar {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+    clear: left;
+    width: 20%;
+    background-color: #292929;
+}
+
+footer {
+    padding-top: 15px;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    width: 12%;
+    float:left;
+    margin-right: 50px;
+    min-height: 120px;
+    min-width: 120px;
+    display: flex;
+}
+
+h1 {
+    width: 100%;
+}
+
+header {
+    max-height: 300px;
+    height: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    sidebar {
+        width: 95%;
+        float: left;
+    }
+
+    article {
+        width: 95%;
+        float: left;
+    }
+}
+
+a {
+    color: #faf18a;
+    font-weight: bold;
+}
