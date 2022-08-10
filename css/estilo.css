@@ -6,6 +6,7 @@ body {
 
 article {
     margin-top: 5px;
+    margin-bottom: 10px;
     padding: 10px;
     border-radius: 20px;
     float: right;
@@ -30,16 +31,6 @@ footer {
     text-align: center;
 }
 
-#profile-pic {
-    border-radius: 50%;
-    width: 12%;
-    float:left;
-    margin-right: 50px;
-    min-height: 120px;
-    min-width: 120px;
-    display: flex;
-}
-
 h1 {
     width: 100%;
 }
@@ -48,6 +39,11 @@ header {
     max-height: 300px;
     height: 100%;
     text-align: center;
+}
+
+a {
+    color: #faf18a;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {
@@ -62,7 +58,23 @@ header {
     }
 }
 
-a {
-    color: #faf18a;
-    font-weight: bold;
+#profile-pic {
+    border-radius: 50%;
+    width: 12%;
+    float:left;
+    margin-right: 50px;
+    min-height: 130px;
+    min-width: 130px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 10px;
+}
+h3 {
+    width: 100%;
+    text-align:center;
 }
