@@ -46,6 +46,11 @@ a {
     font-weight: bold;
 }
 
+.linkhome {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 700px) {
     sidebar {
         width: 95%;
@@ -67,14 +72,15 @@ a {
     min-width: 130px;
 }
 
-ul {
-    list-style-type: square;
-}
-
 li {
     margin: 10px;
 }
-h3 {
+
+h2, h3 {
     width: 100%;
     text-align:center;
+}
+
+span {
+    text-decoration: underline;
 }
