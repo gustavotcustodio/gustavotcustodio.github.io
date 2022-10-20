@@ -1,0 +1,30 @@
+[ 
+    { 
+      "id": 1, 
+      "nomePizza": "Mussarela", 
+      "descricao": "Queijo mussarela, tomate",
+      "preco": 45.00, 
+      "urlImagem": "images/mussarela.png" 
+    }, 
+    { 
+      "id": 2, 
+      "nomePizza": "Calabresa", 
+      "descricao": "Calabresa fatiada e cebola",
+      "preco": 46.00, 
+      "urlImagem": "images/calabresa.png"  
+    }, 
+    { 
+      "id": 3, 
+      "nomePizza": "Alho", 
+      "descricao": "Mussarela, alho e parmesão",
+      "preco": 52.00, 
+      "urlImagem": "images/alho.png"  
+    }, 
+    { 
+      "id": 4, 
+      "nomePizza": "Atum", 
+      "descricao": "Atum ralado e cebola",
+      "preco": 54.00, 
+      "urlImagem": "images/atum.png"  
+    }
+]
