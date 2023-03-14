@@ -1,0 +1,15 @@
+reqCompra:
+    assento: int 
+    classe: int
+    data: String
+    compra: boolean
+    informacoesCartao: String
+respCompra:
+    0: Assento comprado
+    1: Assento ocupado
+    2: Assento não existe
+    3: Data indisponível
+    4: Classe indisponível
+    5: Cartão inválido
+
+
