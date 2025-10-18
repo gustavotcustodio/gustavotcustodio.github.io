@@ -1,7 +1,8 @@
 body {
-    font-family: helvetica;
+    font-family: monospace;
     background-color: #1c1c1c;
     color: white;
+    font-size: 14px;
 }
 
 .article-full {
